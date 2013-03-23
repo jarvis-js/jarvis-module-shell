@@ -50,6 +50,6 @@ function ShellAdapter(jarvis, module) {
 		process.emit('SIGINT');
 	});
 
-	this.repl.setPrompt(module.options.prompt || '> ');
+	this.repl.setPrompt(module.config.prompt || '> ');
 	this.repl.prompt();
 }
