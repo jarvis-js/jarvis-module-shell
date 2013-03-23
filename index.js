@@ -36,6 +36,7 @@ function ShellAdapter(jarvis, module) {
 
 		self.channel.received(new self.channel.Message({
 			body: buffer,
+			direct: true,
 			user: {
 				name: 'admin',
 				identifier: 'shell:admin'
