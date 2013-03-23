@@ -1,0 +1,21 @@
+{
+  "name": "jarvis-module-shell",
+  "version": "0.1.0",
+  "description": "Shell module for Jarvis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexwhitman/jarvis-module-shell.git"
+  },
+  "keywords": [
+    "Jarvis",
+    "shell"
+  ],
+  "author": "Alex Whitman <alex@alexwhitman.com>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "ec6ddf291f1bd5fdea248d9afda99b632e119072"
+}
