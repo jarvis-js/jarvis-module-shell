@@ -3,7 +3,7 @@
 var readline = require('readline');
 
 module.exports = function(jarvis, module) {
-    new ShellAdapter(jarvis, module);
+	new ShellAdapter(jarvis, module);
 };
 
 function ShellAdapter(jarvis, module) {
